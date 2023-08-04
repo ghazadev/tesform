@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FORM</title>
+</head>
+<body>
+
+    <div class="container">
+      <form action="https://formsubmit.co/ghazapervaiz2@gmail.com" method="POST" >
+        <h3>FORM</h3>
+        <br>
+        <div ><input type="text" placeholder="NAME" id="name" required></div>
+        <br>
+       <div> <input type="email" placeholder="E-MAIL" id="email"required></div>
+       <br>
+         <div><input type="text" placeholder="PHONE" id="name" required></div>
+         <br>
+         <div >
+            <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+         </div>
+         <br>
+       <button type="submit">SUBMIT</button>
+        
+       </form>
+    </div>
+  </body>
+  </html>
+    <!--<script src="https://smtpjs.com/v3/smtp.js"></script>"></script>
+    <script>
+    function sendemail() {
+      Email.send({
+    Host : "smtp.gmail.com",
+    Username : "ghazapervaiz2@gmail.com",
+    Password : "GHAZA2411",
+    To : 'pervaizghaza@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "contact form",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+      
+    }
+    </script>
